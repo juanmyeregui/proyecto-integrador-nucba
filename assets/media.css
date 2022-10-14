@@ -1,0 +1,137 @@
+@media (max-width: 992px) {
+  .navbar-list {
+    font-size: 14px;
+  }
+
+  .hero-presentation {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-presentation h1 {
+    font-size: 45px;
+  }
+
+  .hero-presentation p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .button-container a {
+    padding: 8px 30px;
+    font-size: 15px;
+  }
+
+  /* CARDS OFERTAS */
+
+  .card {
+    padding-bottom: 15px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .card h3 {
+    font-size: 11px;
+  }
+
+  .card-price {
+    font-size: 20px;
+  }
+
+  .card a {
+    padding: 3px 7px;
+    font-size: 13px;
+  }
+
+  /*POR QUE ELEGIRNOS*/
+
+  .choose-card {
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .choose-card i {
+    font-size: 30px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;  
+  }
+
+    .footer-redes h1 {
+    font-size: 20px;
+  }
+
+  .footer-icons {
+    gap: 15px;
+    font-size: 18px;
+  }
+
+  .footer-map iframe {
+    display: flex;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .navbar ul {
+    background-color: #191e35;
+    width: 100%;
+    height: calc(100vh - 85px);
+    position: absolute;
+    top: 85px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transform: translateX(200%);
+    transition: all 0.5s ease out;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked + .navbar-list {
+    transform: translateX(0);
+    transition: all 0.5s ease in;
+  }
+
+  .login-form h1 {
+    font-size: 30px;
+  }
+
+
+  .login-form input {
+    font-size: 12px;
+    width: 200px;
+  }
+
+
+  .footer-map iframe {
+    width: 200px;
+  }
+}

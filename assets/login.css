@@ -1,0 +1,59 @@
+/* Icono Navbar Login y Register */
+
+.navbar i {
+  margin-right: 20px;
+  color: #eb4605;
+  font-size: 14px;
+}
+
+/* Estilos Login y Register */
+
+.login-form {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    padding: 180px;
+  }
+  
+  .login-form h1 {
+    color: #191e35;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .login-form input {
+    font-size: 15px;
+    background-color: #191e35;
+    border-radius: 2em;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 300;
+    width: 300px;
+  }
+  
+  .login-form a {
+    background-color: #eb4605;
+    border-radius: 2em;
+    padding: 10px 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  /* Background Image */
+
+.div-form {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/assets/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
